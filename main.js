@@ -6,7 +6,6 @@ var main_form=document.querySelectorAll(".main");
 var list=document.querySelectorAll(".progress-bar li")
 let formnumber=0;
 
-
 create_workspace.addEventListener('click',function(){
     if(!validateform()){
         return false;
