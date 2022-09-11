@@ -317,6 +317,7 @@ input[type="email"]{
     border:1px solid #0051B2;
     font-size: 14px;
     color: #FFD00B;
+    background-color: white;
   }
 
   #twitter {
