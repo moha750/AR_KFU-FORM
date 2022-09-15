@@ -4,167 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>التسجيل في نادي أدِيب</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <form name='submit-to-google-sheet'>
 
         <div class="container">
             <div class="card">
                 <div class="parent">
                     <div class="top-div">
                         <img style="width: 125px; margin-bottom: 20px;" src="شعار اديب.png">
-                        <h3 style="font-size: 20px; color: #0051B2;">التسجيل في نادي أدِيب</h3>
                      </div>
-                    <ul class="progress-bar">
-                        <li class="active"></li>
-                        <li></li>
-                        <li></li>
-                        <!--<li></li>-->
-                    </ul>
+                  
                 </div>    
                 <div class="main active">
                     <div class="content">
-                        <h4 style="color:#0051B2;">..أهلًا بك في أولى خطواتك لتصبح أديبًا</h4>
-                        <p style="color:#FFD00B;">   للإنضمام يرجى تعبئة البيانات الشخصية   </p>
+                        <h4 style="color:#0051B2;"> تم إغلاق باب التسجيل في نادي أدِيب</h4>
+                        <p style="color:#FFD00B;">   نتطلع لنراك مستقبلاً   </p>
                      </div>
-                     <div class="input-text">
-                        <input type="text" name="الأسم الثلاثي" placeholder="أكتب أسمك هنا" require>
-                        <span style="background-color: white;">الأسم الثلاثي</span>
-                        <p class="war1" style="color: red; font-size: 12px; text-align: right;">*الحقل مطلوب</p>
-                    </div>
-                    <div class="input-text"> 
-                        <input type="number" name="رقم الجوال" placeholder="05********" require>
-                        <span style="background-color: white;">رقم الجوال</span>
-                        <p class="war1" style="color: red; font-size: 12px; text-align: right;">*الحقل مطلوب</p>
-                    </div>
-                    <div class="input-text"> 
-                     <input type="text" name="البريد الإلكتروني" placeholder="example@example.com" require>
-                     <span style="background-color: white;">البريد الإلكتروني</span>
-                     <p class="war1" style="color: red; font-size: 12px; text-align: right;">*الحقل مطلوب</p>
-                    </div>
-                    <div class="input-text"> 
-                     <input type="text" name="الكلية / القسم" placeholder="كليتك / قسمك" require>
-                     <span style="background-color: white;">الكلية / القسم</span>
-                     <p class="war1" style="color: red; font-size: 12px; text-align: right;">*الحقل مطلوب</p>
-                    </div>
-                    <div class="button">
-                      <button class="create-workspace">الخطوة التالية</button>
-                    </div>
-                    
-                </div> 
-                <div class="main">
-                    
-                    <div class="content">
-                        <h4 style="color:#0051B2;"> !!وصلت للخطوة الثانية   </h4>
-                        <p style="color:#FFD00B;">عرّفنا أكثر عن مهاراتك وخبراتك يا مُبدع/ـه</p>
-                     </div> 
                      
-                     <div class="input-text">
-                       <input type="text" name="هل لديك مهارات؟" placeholder="نعم / لا" require>
-                       <span style="background-color: white;">هل تمتلك مهارات؟</span>
-                       <p class="war2" style="color: red; font-size: 12px; text-align: right;">*الحقل مطلوب</p>
-                   </div>
-       
-                   <div class="input-text">
-                       <textarea name="اذا كانت إجابتك (نعم)" id="" cols="30" rows="2" placeholder="أذكر/ـي مهاراتك هنا"></textarea>
-                       <span style="background-color: white;">(اذا كانت إجابتك (نعم</span>
-                   </div>
-       
-                   <div class="input-text">
-                       <input type="text" name="هل لديك خبرات؟" placeholder="نعم / لا" require>
-                       <span style="background-color: white;">هل لديك خبرات؟</span>
-                       <p class="war2" style="color: red; font-size: 12px; text-align: right;">*الحقل مطلوب</p>
-                   </div>
-       
-                   <div class="input-text">
-                       <textarea name="إذا كانت إجابتك (نعم)" id="" cols="30" rows="2" placeholder="أذكر/ـي خبراتك هنا"></textarea>
-                       <span style="background-color: white;">إذا كانت إجابتك (نعم)</span>
-                   </div>
-
-                    <div class="button button_gap">
-                        <button class="back-click">الرجوع للخطوة السابقة</button>
-                        <button class="next-click">الخطوة التالية</button>
-                    </div>
-                    
-                </div>
-                 <div class="main">
-                   
-                    <div class="content">
-                       <h4 style="color:#0051B2;">..أخيرًا, وصلت للخطوة الاخيرة</h4>
-                       <p style="color:#FFD00B;">    (; حابين نسمع منك أكثر ونكحل عيوننا بأعمالك   </p>
-                    </div>
-                    
-                    <div class="input-text">
-                        <select name="رغبة الأنضمام" id="pet-select" require>
-                            <option value="">--يُرجى أختيار رغبة الأنضمام--</option>
-                            <option value="التصميم ">التصميم</option>
-                            <option value="المونتاج">المونتاج</option>
-                            <option value="إعداد التقارير">إعداد التقارير</option>
-                            <option value="التقديم والالقاء">التقديم والالقاء</option>
-                            <option value="صناعة المحتوى">صناعة المحتوى</option>
-                            <option value="التصوير الفوتوغرافي">التصوير الفوتوغرافي</option>
-                            <option value="غير ذلك">غير ذلك</option>
-                        </select>
-                        <p class="war2" style="color: red; font-size: 12px; text-align: right;">*الحقل مطلوب</p>
-                    </div>
-        
-                    <div class="input-text">
-                        <input type="text" name="اذا كانت إجابتك (غير ذلك)" placeholder="أذكر/ـي رغبة إنضمامك" require>
-                        <span style="background-color: white;">(اذا كانت إجابتك (غير ذلك</span>
-                    </div>
-        
-                    <div class="input-text">
-                        <input type="text" name="ضع معرض أعمالك إن وجد" placeholder="..مثال: تويتر، انستقرام، لينكد إن، وغيرها" require>
-                        <span style="background-color: white;">ضع معرض أعمالك إن وجد</span>
-                    </div>
-        
-                    <div class="input-text">
-                        <textarea name="ماذا يميزك عن غيرك؟" id="" cols="30" rows="3" placeholder="..تحدث عن نفسك"></textarea>
-                        <span style="background-color: white;">   ماالذي يميزك عن غيرك؟ </span>
-                    </div>
-
-                    <div class="button button_gap1">
-                        <button class="back-click">الرجوع للخطوة السابقة</button>
-                        <button type="submit" class="finish-click">تسليم التسجيل</button>
-                    </div>
-                 
-                </div>
-
-                <div class="main">
-                   
-                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                        <circle class="checkmark__circle" cx="30" cy="30" r="25" fill="none"/>
-                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
-                    </svg>
-                    <div class="content">
-                       <h2>   !مبروك يا مُبدع/ مُبدعة <span id="shown_name"></span></h2>
-                       <p>  تم إستلام طلب إنضامك في عائلة نادي أدِيب  </p>
-                    </div>
-
-                    <div id="twitter">
+                     <div id="twitter">
                         <button class="twitter"><a href="https://twitter.com/AR_KFU" target="_blank">   <i class="fa-brands fa-twitter"></i> لمُتابعة مستجدات النادي في   </a></button>
                     </div>
-
-                </div>
-               
+                    
                 
-            </div>
-            
-        </div>
 
-    </form>
-
-    <script>(function(w, d) { w.CollectId = "631cb70f34ef7b62f8f0cdeb"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>   
+    
 
     <script src="main.js"></script>
 
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwVPTzXF8I1xLYUHzy9Em39MpONgC-H_lbi9i-fk5wNfe_qwsplDNkyEidZmKva9Nr_/exec'
-const form = document.forms['submit-to-google-sheet']
+const form = document.forms['submit-to-google']
 
 form.addEventListener('submit', e => {
   e.preventDefault()
