@@ -16,7 +16,7 @@
    }
    
    .card{
-    height:745px !important;
+    height:400px !important;
     width:330px;
     background-color:#fff;
     border-radius:10px;
@@ -345,3 +345,4 @@ a {
     font-size: 13px;
     text-decoration: none;
 }
+
