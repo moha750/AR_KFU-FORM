@@ -251,7 +251,7 @@ input[type="email"]{
    }
    
    .checkmark__circle {
-     stroke-dasharray: 167;
+     stroke-dasharray: 166;
      stroke-dashoffset: 166;
      stroke-width: 2;
      stroke-miterlimit: 10;
